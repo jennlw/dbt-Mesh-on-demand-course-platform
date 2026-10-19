@@ -1,9 +1,10 @@
 models:
   - name: fct_orders
     latest_version: 1 ##Call out which version will be the default version when running this model
-    group: finance
-    access: public
+    
     config:
+      group: finance
+      access: public
       contract:
         enforced: true
     columns:
